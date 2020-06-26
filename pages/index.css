@@ -16,13 +16,16 @@ html, body {
 .logo-name {
     font-family: 'Sacramento', cursive;
     position: absolute;
-    left: 25px;
-    top: 20px;
+    left: 175px;
+    top: 30px;
     color: white;
     font-size: 56px;
     cursor: pointer;
+    transition: 0.3s;
 }
-
+.logo-name:hover {
+    color: #afafaf
+}
 .img-div {
     display: block;
     position: absolute;
@@ -34,16 +37,26 @@ html, body {
 }
 
 .logo {
+    position: absolute;
+    left: 35px;
+    top:10px;
     z-index: 9999;
     cursor: pointer;
+    margin-top: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 .navbar {
     display: flex;
     position: absolute;
-    top: 25px;
+    top: 35px;
     right: 75px;
-    width: 400px;
+    width: 500px;
+    font-size: 20px;
     color: white;
     justify-content: space-between;
     align-items: center;
@@ -61,15 +74,22 @@ html, body {
     border: solid 3px white;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.3s;
 }
+
 .nav-contact:hover {
-border:solid 3px darkgoldenrod;
-color:darkgoldenrod
+    border: solid 3px darkgoldenrod;
+    color: darkgoldenrod
 }
+
 .navbar p {
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .navbar p:hover {
     color: darkgoldenrod;
 }
+
+/***Animations***/
+
