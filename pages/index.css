@@ -16,7 +16,7 @@ p {
 }
 
 .background {
-
+    margin-top: -10px;
     width: 100%;
     min-height: 100vh;
     -webkit-animation: fadein 1s;
