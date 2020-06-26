@@ -17,7 +17,7 @@ export default function App() {
             <main className="main">
                 {/* <OleoText title={`Full-Stack Developer \n & \n Designer`} position="left" /> */}
                 <div className="main-title">
-                    <p> Full-Stack Developer & Designer </p>
+                    <h1> Full-Stack Developer & Designer </h1>
                 </div>
 
             </main>
