@@ -13,7 +13,7 @@ html, body {
     font-family: 'Sacramento', cursive;
     position: absolute;
     left: 25px;
-    top:20px;
+    top: 20px;
     color: white;
     font-size: 56px
 }
@@ -25,7 +25,14 @@ html, body {
     left: 0px;
     top: 0px;
     height: 100vh;
+    z-index: -5455;
 }
-.logo{
 
+.logo {
+    z-index: 9999;
+}
+
+.navbar {
+    font-family: 'Archivo Narrow', sans-serif;
+    ;
 }
