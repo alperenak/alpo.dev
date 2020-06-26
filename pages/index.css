@@ -9,13 +9,18 @@ html, body {
     width: 100%;
 }
 
+.container {
+    display: flex;
+}
+
 .logo-name {
     font-family: 'Sacramento', cursive;
     position: absolute;
     left: 25px;
     top: 20px;
     color: white;
-    font-size: 56px
+    font-size: 56px;
+    cursor: pointer;
 }
 
 .img-div {
@@ -30,9 +35,41 @@ html, body {
 
 .logo {
     z-index: 9999;
+    cursor: pointer;
 }
 
 .navbar {
+    display: flex;
+    position: absolute;
+    top: 25px;
+    right: 75px;
+    width: 400px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
     font-family: 'Archivo Narrow', sans-serif;
     ;
+}
+
+.nav-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 50px;
+    font-weight: 500;
+    border: solid 3px white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-contact:hover {
+border:solid 3px darkgoldenrod;
+color:darkgoldenrod
+}
+.navbar p {
+    cursor: pointer;
+}
+
+.navbar p:hover {
+    color: darkgoldenrod;
 }
